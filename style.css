@@ -1,0 +1,84 @@
+#accueil{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/joke.jpg);
+}
+#page1{
+    background-color:black
+}
+
+@font-face {
+    font-family: '20_dbregular';
+    src: url('font/20db-webfont.eot');
+    src: url('font/20db-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/20db-webfont.woff2') format('woff2'),
+         url('font/20db-webfont.woff') format('woff'),
+         url('font/20db-webfont.ttf') format('truetype'),
+         url('font/20db-webfont.svg#20_dbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.floatright{
+    float: right;
+}
+
+
+h1{
+text-align: center;
+font-family: '20_dbregular', Arial, sans-serif;
+text-shadow: 10px 10px 10px pink;
+color: #4237ff;
+font-size: 2em;
+}
+h2{
+    color :pink;
+    text-decoration :underline ;
+    font-family: '20_dbregular', Arial, sans-serif;
+}
+p{
+    color: grey;
+    font-size: 20px;
+    
+}
+.lamanu{
+    color: green;
+}
+.conteneurflex{
+    display: flex;
+}
+.flex{
+    margin: 0 80px;
+}
+.fake{
+    float:right;
+}
+.conteneur2{
+    display: flex;
+}
+.box{
+    margin: 0px 100px;
+}
+.box2{
+    margin-top: 500px;
+    margin-left: -250px;
+}
+.box3{
+    margin-top: 500px;
+    margin-left: 700px;
+
+}
+.box4{
+    margin-top: 0px;
+    margin-left: -250px;
+}
+.serieux{
+    color: red;
+    font-family: '20_dbregular', Arial, sans-serif;
+    text-align: center;
+    margin-top: -380px;
+    font-size: 2em;
+}
+   
+
+
